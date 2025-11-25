@@ -16,7 +16,7 @@ spec:
         app: student-deployment
     spec:
       containers:
-      - image: student-app2004
+      - image: pillirushi/devopsss:v1
         name: student-app
         ports:
         - containerPort: 4000
