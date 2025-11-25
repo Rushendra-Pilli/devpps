@@ -3,7 +3,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 from prometheus_client import Counter
 app = Flask(__name__)
 metrics = PrometheusMetrics(app)    
-
+# This is a feature
 REQUEST_COUNT = Counter('request_count','App Request Count')
 students =[
     {
