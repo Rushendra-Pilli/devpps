@@ -16,7 +16,7 @@ spec:
         app: student-deployment
     spec:
       containers:
-      - image: student-app
+      - image: student-app2004
         name: student-app
         ports:
         - containerPort: 4000
