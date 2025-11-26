@@ -11,7 +11,7 @@ provider "docker"{}
 
 resource "docker_container" "student"{
     image = "python:3.9-slim"
-    name = "student-app"
+    name = "student-app2004"
     command = ["sleep","3600"]
     ports{
         internal = 4000
