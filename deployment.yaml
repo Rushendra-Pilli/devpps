@@ -16,7 +16,7 @@ spec:
         app: student-deployment
     spec:
       containers:
-      - image: pillirushi/devopsss:v1
+      - image: hemanthperala10/hemanth-app:v1
         name: student-app
         ports:
         - containerPort: 4000
